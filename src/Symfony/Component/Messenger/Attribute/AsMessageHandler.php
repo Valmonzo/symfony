@@ -17,7 +17,7 @@ namespace Symfony\Component\Messenger\Attribute;
  * @author Alireza Mirsepassi <alirezamirsepassi@gmail.com>
  */
 #[\Attribute(\Attribute::TARGET_CLASS | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]
-class AsMessageHandler
+final class AsMessageHandler
 {
     public function __construct(
         /**
